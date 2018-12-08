@@ -80,3 +80,19 @@ executable day7a
   ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
   build-depends:       base >= 4.7 && < 5
                      , fgl
+
+executable day8a
+  hs-source-dirs:      src
+  main-is:             Day8A.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , megaparsec
+
+executable day8b
+  hs-source-dirs:      src
+  main-is:             Day8B.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , megaparsec
