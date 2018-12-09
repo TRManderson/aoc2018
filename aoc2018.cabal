@@ -59,6 +59,28 @@ executable day3b
                      , lens
                      , parsec
 
+executable day4a
+  hs-source-dirs:      src
+  main-is:             Day4A.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , lens
+                     , array
+                     , containers
+                     , transformers
+                     , megaparsec
+
+executable day4b
+  hs-source-dirs:      src
+  main-is:             Day4B.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , lens
+                     , array
+                     , containers
+                     , transformers
+                     , megaparsec
+
 executable day5a
   hs-source-dirs:      src
   main-is:             Day5A.hs
