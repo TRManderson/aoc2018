@@ -103,6 +103,17 @@ executable day7a
   build-depends:       base >= 4.7 && < 5
                      , fgl
 
+executable day7b
+  hs-source-dirs:      src
+  main-is:             Day7B.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , fgl
+                     , transformers
+                     , lens
+                     , monad-loops
+
 executable day8a
   hs-source-dirs:      src
   main-is:             Day8A.hs
