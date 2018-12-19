@@ -163,3 +163,31 @@ executable day10
                      , containers
                      , megaparsec
                      , monad-loops
+
+executable day11a
+  hs-source-dirs:      src
+  main-is:             Day11A.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , parallel
+                     , array
+
+executable day11a
+  hs-source-dirs:      src
+  main-is:             Day11A.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , parallel
+                     , array
+
+executable day11b
+  hs-source-dirs:      src
+  main-is:             Day11B.hs
+  default-language:    Haskell2010
+  ghc-options:         -Wall -threaded -rtsopts -with-rtsopts=-N
+  build-depends:       base >= 4.7 && < 5
+                     , parallel
+                     , array
+                     , memoize
